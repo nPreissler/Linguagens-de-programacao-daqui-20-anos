@@ -159,3 +159,10 @@ footer{
     justify-content: space-between;
 }
 
+@media all and (max-width: 760px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
